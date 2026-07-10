@@ -1,0 +1,6 @@
+body, html { margin: 0; padding: 0; }
+.background {
+    background-image: radial-gradient(#341c00 2px, transparent 2px);
+    background-size: 34px 34px;
+    background-color: #e2ca76;
+}
