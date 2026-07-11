@@ -1,11 +1,59 @@
-html, body { margin: 0; padding: 0; }
+@import url('https://fonts.googleapis.com/css2?family=Geomini:wght@200..800&display=swap');
+html, body, h2, h3 { margin: 0; padding: 0; }
+
+/* ====HEADER==== */
+.geomini-header {
+    font-family: "Geomini", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+}
 .header_container {
     width: 100%;
-    height: 150px;
-    background: linear-gradient(90deg, #870000, #190A05);
+    height: 75px;
+    background: radial-gradient(circle at center, #695715, #FFDB58);
+    line-height: 75px;
+}
+.header_container > ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.header_container > ul > li > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* ====FOOTER==== */
+.geomini-footer {
+    font-family: "Geomini", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
 }
 .footer_container {
     width: 100%;
-    height: 300px;
-    background: linear-gradient(180deg, #870000, #190A05);
+    height: 200px;
+    background: radial-gradient(circle at center, #695715, #FFDB58);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_container > div > h2 > a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.footer_container > div > h2 > a img {
+    vertical-align: middle;
+    height: 1.25em;
+    width: auto;
 }
